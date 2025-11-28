@@ -1,0 +1,19 @@
+# Bybit分流
+# 更新时间 20251128
+
+DOMAIN-SUFFIX, bybit.com
+DOMAIN-KEYWORD, bybit
+DOMAIN-SUFFIX, bybdc6.com
+DOMAIN-SUFFIX, byapps.net
+DOMAIN-KEYWORD, bybd
+DOMAIN-KEYWORD, byapp
+DOMAIN-SUFFIX, bycsi.com
+DOMAIN-SUFFIX, bytick.com
+DOMAIN-SUFFIX, bybt.com
+DOMAIN-SUFFIX, bycs.io
+DOMAIN-SUFFIX, byapi.io
+DOMAIN-SUFFIX, bybit.me
+DOMAIN-SUFFIX, bbcfutures.com
+DOMAIN-KEYWORD, bycs
+DOMAIN-KEYWORD, byabc
+DOMAIN-KEYWORD, byd3
