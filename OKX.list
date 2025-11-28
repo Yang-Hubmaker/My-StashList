@@ -1,15 +1,15 @@
 # OKX分流
 # 更新时间 20251128
-  - DOMAIN-SUFFIX,okx.com
-  - DOMAIN-SUFFIX,okx.com.cn
-  - DOMAIN-SUFFIX,okex.com
-  - DOMAIN-SUFFIX,okx-dns.com
-  - DOMAIN-SUFFIX,okx-dns.net
-  - DOMAIN-SUFFIX,oklink.com
-  - DOMAIN-SUFFIX,okg.com
-  - DOMAIN-SUFFIX,okx-trading.com
-  - DOMAIN-SUFFIX,okx-static.com
-  - DOMAIN-SUFFIX,okxcdn.com
-  - DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
-  - DOMAIN-KEYWORD,okx
-  - DOMAIN-KEYWORD,okex
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okx.com.cn
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-SUFFIX,okx-dns.net
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okg.com
+DOMAIN-SUFFIX,okx-trading.com
+DOMAIN-SUFFIX,okx-static.com
+DOMAIN-SUFFIX,okxcdn.com
+DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
+DOMAIN-KEYWORD,okx
+DOMAIN-KEYWORD,okex
