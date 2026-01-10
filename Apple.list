@@ -1,0 +1,14 @@
+# Apple节点组分流
+# 更新时间20260110
+
+# App Store 商店页面 API (决定你看到的商店是美区还是国区)
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+
+# iCloud 网页版与同步信令 (有时候走代理同步更快，有时候直连稳，建议放控制组)
+DOMAIN-SUFFIX,icloud.com
+
+# 兜底规则 (其余所有苹果相关)
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-KEYWORD,apple
