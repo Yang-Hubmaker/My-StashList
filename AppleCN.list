@@ -1,19 +1,23 @@
 # Apple中国分流
 # 更新时间20260110
 
-# App Store 下载与图片 CDN (流量最大，必须直连)
+# === App Store 下载 CDN (流量最大) ===
+# 这里的域名只负责传文件，不负责鉴权，直连最快
 DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,aaplimg.com
 
-# iCloud 内容存储 (照片、网盘文件)
+# === iCloud 数据存储 ===
+# 照片和备份文件
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,apple-dns.net
 
-# 系统更新与硬件支持
+# === 系统更新与硬件支持 ===
 DOMAIN-SUFFIX,mesu.apple.com
 DOMAIN-SUFFIX,assets-ad-service.apple.com
-DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,ls.apple.com
-DOMAIN-SUFFIX,entrust.net
-DOMAIN-SUFFIX,digicert.com
+
+# === 中国区特有优化 ===
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,icloud.com.cn
