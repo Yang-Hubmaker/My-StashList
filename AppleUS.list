@@ -9,15 +9,12 @@ DOMAIN,appleintelligencefeedback.care.apple.com
 DOMAIN,apple.comscoreresearch.com
 DOMAIN-SUFFIX,experiments.apple.com
 
-# === Podcasts（播客内容API和网站）
-DOMAIN-SUFFIX,amp-api.podcast.apple.com
-DOMAIN-SUFFIX,podcasts.apple.com
-
-# === Apple News & TV（新闻聚合、电视内容服务）
+# === Apple News & TV
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,tv.apple.com
+DOMAIN-SUFFIX,appletv.com
 
-# === News 服务（新闻客户端、事件、资产）
+# === News 服务
 DOMAIN,news-assets.apple.com
 DOMAIN,news-client.apple.com
 DOMAIN,news-edge.apple.com
@@ -28,7 +25,9 @@ DOMAIN-SUFFIX,applenews.tv
 DOMAIN-SUFFIX,applenewsformat.com
 DOMAIN-SUFFIX,appleenews.com
 
-# === 媒体流 & 音频/视频（音乐、视频点播、流媒体）
+# === Podcasts / 媒体内容
+DOMAIN-SUFFIX,amp-api.podcast.apple.com
+DOMAIN-SUFFIX,podcasts.apple.com
 DOMAIN,js-cdn.music.apple.com
 DOMAIN-SUFFIX,amp-api.media.apple.com
 DOMAIN-SUFFIX,amp-api-updates.apps.apple.com
@@ -36,37 +35,18 @@ DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,tv.applemusic.com
 
-# === App Store 主服务（应用浏览、商店前台）
-DOMAIN,apps.apple.com
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,appstore.com
-
-# === iTunes 主服务
-DOMAIN,itunes.apple.com
-
-# === iTunes/iBooks 购买与认证
-DOMAIN,bag.itunes.apple.com
-DOMAIN,bookkeeper.itunes.apple.com
-DOMAIN,buy.itunes.apple.com
-DOMAIN,entitlements-edge.itunes.apple.com
-DOMAIN,fpinit.itunes.apple.com
-DOMAIN,lookup-api.apple.com
-DOMAIN,past.im
-DOMAIN,play.itunes.apple.com
-
-# === Apple ID & 认证
+# === Apple ID & 地区判断
 DOMAIN,appleid.apple.com
 DOMAIN,appleid.cdn-apple.com
 DOMAIN,idmsa.apple.com
 
-# === Apple 官网 / 国际内容
+# === Apple 官网（国际）
 DOMAIN-SUFFIX,www.apple.com
 DOMAIN-SUFFIX,support.apple.com
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,appletv.com
 
-# === 开发者 & TestFlight
+# === 开发者 / TestFlight
 DOMAIN,developer.apple.com
 DOMAIN,devimages-cdn.apple.com
 DOMAIN,devstreaming-cdn.apple.com
@@ -76,34 +56,16 @@ DOMAIN,testflight.apple.com
 DOMAIN-SUFFIX,adcdownload.apple.com
 DOMAIN-KEYWORD,testflight
 
-# === 位置 & 地图（国际）
+# === 位置 / 天气（国际）
 DOMAIN,api-glb-sea.smoot.apple.com
 DOMAIN,gs-loc.apple.com
-DOMAIN-SUFFIX,api-p-ap-c.smoot.apple.com
-DOMAIN-SUFFIX,api-p-ap-d.smoot.apple.com
-DOMAIN-SUFFIX,api-p-ap-e.smoot.apple.com
 DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,cdn.apple-mapkit.com
-
-# === 天气（国际）
 DOMAIN-SUFFIX,weatherkit.apple.com
 DOMAIN-SUFFIX,weather-data.apple.com
 DOMAIN-SUFFIX,weather-map.apple.com
 DOMAIN-SUFFIX,weather-map2.apple.com
 
-# === Apple 主域
-DOMAIN-SUFFIX,apple
-
 # === Apple IP 段
 IP-CIDR,17.0.0.0/8,no-resolve
 IP-CIDR,139.178.128.0/18,no-resolve
 IP-CIDR6,2620:149::/32,no-resolve
-
-# === 进程
-PROCESS-NAME,Music
-PROCESS-NAME,LookupViewService
-PROCESS-NAME,WeatherWidget
-PROCESS-NAME,com.apple.Maps
-PROCESS-NAME,com.apple.geod
-PROCESS-NAME,mapspushd
