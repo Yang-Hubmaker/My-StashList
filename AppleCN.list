@@ -3,6 +3,8 @@
 
 # === App Store 下载 CDN (流量最大) ===
 # 这里的域名只负责传文件，不负责鉴权，直连最快
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,aaplimg.com
