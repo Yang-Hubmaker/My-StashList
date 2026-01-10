@@ -1,19 +1,16 @@
 # Apple节点组分流
 # 更新时间20260110
 
-# === 商店前端页面 ===
-# 决定你看到的是美区界面还是无法连接
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,apps.apple.com
-
-# === iCloud 网页与同步信令 ===
+# === iCloud 同步信令 ===
+# 如果发现备忘录、联系人同步慢，可以试着切到“美国”
 DOMAIN-SUFFIX,icloud.com
 
-# === 地图 ===
-# 走代理是TomTom数据(美国)，直连是高德数据(中国)
+# === 开发者与资源 ===
+DOMAIN-SUFFIX,developer.apple.com
 DOMAIN-SUFFIX,apple-mapkit.com
 
-# === 兜底规则 ===
-# 其他所有未明确的 Apple 域名
+# === 兜底规则 (剩下的所有苹果域名) ===
+# 如果你想让剩下的苹果流量也直连，这个组选 Direct 即可
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.co
+DOMAIN-KEYWORD,apple
