@@ -1,35 +1,33 @@
 # Apple美区分流
 # 更新时间 20260110
 
-# Apple Intelligence & Siri (关键: PCC Private Cloud Compute)
+# === Apple Intelligence (AI) / Siri ===
+# AI 私有云计算，必须美国 IP
 DOMAIN-SUFFIX,pcc.apple.com
 DOMAIN-SUFFIX,pcc-1.apple.com
 DOMAIN-SUFFIX,pcc-2.apple.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,clouddia.apple.com
-DOMAIN-SUFFIX,gdmf.apple.com
-DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,siri.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,smoot.apple.com
 
-# Apple Music & Podcasts & Media
-DOMAIN-SUFFIX,music.apple.com
-DOMAIN-SUFFIX,podcasts.apple.com
-DOMAIN-SUFFIX,radio.apple.com
-DOMAIN-SUFFIX,blobstore.apple.com
-DOMAIN-SUFFIX,itunes.com
-DOMAIN,amp-api.music.apple.com
-DOMAIN,beta.music.apple.com
-
-# Apple News & Books & TV
-DOMAIN-SUFFIX,news.apple.com
-DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,tv.apple.com
-DOMAIN-SUFFIX,books.apple.com
-DOMAIN-SUFFIX,book-assets.apple.com
-
-# Apple ID & Identity (让苹果认为你人在美国)
+# === 身份认证 (关键) ===
+# 决定账号归属地判定
 DOMAIN-SUFFIX,appleid.apple.com
 DOMAIN-SUFFIX,idmsa.apple.com
 DOMAIN-SUFFIX,gsa.apple.com
-DOMAIN-SUFFIX,apple-mapkit.com
+
+# === Apple Music & Podcasts & TV ===
+# 版权内容流媒体
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,podcasts.apple.com
+DOMAIN-SUFFIX,radio.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN-SUFFIX,blobstore.apple.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN,amp-api.music.apple.com
+
+# === Apple News & Books ===
+DOMAIN-SUFFIX,news.apple.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,books.apple.com
