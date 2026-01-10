@@ -43,7 +43,6 @@ DOMAIN,idmsa.apple.com
 # === Apple 官网（国际）
 DOMAIN-SUFFIX,www.apple.com
 DOMAIN-SUFFIX,support.apple.com
-DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,applemusic.com
 
 # === 开发者 / TestFlight
