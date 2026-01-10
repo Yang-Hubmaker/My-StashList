@@ -1,33 +1,29 @@
 # Apple美区分流
 # 更新时间 20260110
 
-# === Apple Intelligence (AI) / Siri ===
-# AI 私有云计算，必须美国 IP
+# === Apple Intelligence 核心计算 ===
 DOMAIN-SUFFIX,pcc.apple.com
 DOMAIN-SUFFIX,pcc-1.apple.com
 DOMAIN-SUFFIX,pcc-2.apple.com
+DOMAIN-SUFFIX,api.apple-cloudkit.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-KEYWORD,pcc.apple.com
+
+# === 地理位置 / 身份 / 风控（AI 存活关键）===
+DOMAIN-SUFFIX,gs-loc.apple.com
+DOMAIN-SUFFIX,gsa.apple.com
+DOMAIN-SUFFIX,idmsa.apple.com
+DOMAIN-SUFFIX,appleid.apple.com
+DOMAIN-SUFFIX,configuration.apple.com
+
+# === Siri / 搜索 / 智能交互 ===
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,siri.com
-DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com
 
-# === 身份认证 (关键) ===
-# 决定账号归属地判定
-DOMAIN-SUFFIX,appleid.apple.com
-DOMAIN-SUFFIX,idmsa.apple.com
-DOMAIN-SUFFIX,gsa.apple.com
-
-# === Apple Music & Podcasts & TV ===
-# 版权内容流媒体
+# === 媒体鉴权（Music / Podcasts / TV / News）===
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,podcasts.apple.com
-DOMAIN-SUFFIX,radio.apple.com
 DOMAIN-SUFFIX,tv.apple.com
-DOMAIN-SUFFIX,blobstore.apple.com
-DOMAIN-SUFFIX,itunes.com
-DOMAIN,amp-api.music.apple.com
-
-# === Apple News & Books ===
-DOMAIN-SUFFIX,news.apple.com
 DOMAIN-SUFFIX,apple.news
-DOMAIN-SUFFIX,books.apple.com
