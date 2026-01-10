@@ -27,3 +27,7 @@ DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,podcasts.apple.com
 DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,apple.news
+
+# === 可实验 / 非关键 Apple 服务 ===
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,apple.co
